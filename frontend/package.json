@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vueuse/core": "^12.5.0",
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.7",
+    "jwt-decode": "^4.0.0",
+    "nuxt": "^3.15.4",
+    "vite": "^6.1.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@types/jwt-decode": "^2.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17"
+  }
+}
