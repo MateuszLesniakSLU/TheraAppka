@@ -6,8 +6,8 @@
     "frontend"
   ],
   "engines": {
-    "node": "18.19.1",
-    "npm": ">=6.11.0"
+  "node": ">=22.14.0",
+  "npm": ">=8.0.0"
   },
   "scripts": {
     "start:backend": "npm run start --workspace=backend",
